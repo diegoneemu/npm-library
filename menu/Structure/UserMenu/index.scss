@@ -1,0 +1,8 @@
+.user-area {
+  margin-left: 0;
+
+  & > .btn-link > i {
+    vertical-align: inherit;
+    margin-top: 0;
+  }
+}

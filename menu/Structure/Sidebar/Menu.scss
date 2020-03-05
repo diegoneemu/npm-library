@@ -1,0 +1,66 @@
+@media (min-width: 768px) {
+  .sidebar > .nav {
+    top: 76px;
+  }
+}
+
+.sidebar > ul.nav > li {
+  padding-left: 20px;
+}
+
+.sidebar > ul.nav > li > a {
+  padding: 10px 0;
+  margin-left: 0;
+  border-left: 0;
+}
+
+.sidebar > ul.nav > li > ul.sub-nav {
+  margin-left: 35px;
+  padding-left: 0px;
+  list-style: none;
+}
+.sidebar > ul.nav > li > ul.sub-nav > li {
+  padding: 10px 0;
+}
+.sidebar > ul.nav > li > ul.sub-nav > li > a {
+  text-decoration: none;
+  color: #8c7a9b;
+}
+.sidebar > ul.nav > li > ul.sub-nav > li > a:hover {
+  color: #ffffff;
+}
+
+.sidebar > ul.nav > li.active a,
+.sidebar > ul.nav > li.active a:hover {
+  border-left: 0 !important;
+}
+
+.sidebar > ul.nav > li.active > ul.sub-nav > li.active > a {
+  color: #ffffff;
+}
+
+.sidebar > .nav > li > a:hover,
+.sidebar > .nav > li > a:focus,
+.sidebar > .nav > li.active > a,
+.sidebar > .nav > li.active > a:hover,
+.sidebar > .nav > li.active > a:focus {
+  color: #ff9200;
+}
+
+.sidebar > .nav > li.active > a {
+  cursor: pointer !important;
+}
+
+.brand-logo {
+  padding-top: 23px;
+  padding-left: 20px;
+}
+
+.sidebar > .nav > li > a .beta-label {
+  background: #ff9200;
+  border-radius: 5px;
+  color: #402259;
+  font-size: 10px;
+  margin-left: 5px;
+  padding: 1px 4px;
+}

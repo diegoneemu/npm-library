@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+.sidebar-brand > span {
+  display: block;
+  height: 62px;
+  padding: 0 25px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 62px;
+  color: #a1a1a1;
+}
+.sidebar-brand ul > li > a > span {
+  text-transform: uppercase;
+  font-family: Dosis;
+  font-weight: bolder;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-top: 1px;
+}
+.sidebar > .sidebar-brand > span {
+  padding-left: 20px;
+  height: 75px;
+}
+.sidebar > .sidebar-brand > span > i {
+  float: right;
+  margin-top: 31px;
+}
+.sidebar-brand ul > li > a:hover {
+  background-color: transparent !important;
+}
+.sidebar-brand a:hover {
+  text-decoration: none !important;
+}
+.sidebar-brand ul.dropdown-menu {
+  border-top-color: #533869;
+  background-color: #311a45;
+}
+.sidebar-brand ul.dropdown-menu > li {
+  margin-top: 20px;
+  padding: 0 0 0 20px;
+  text-transform: uppercase;
+}
+.sidebar-brand ul.dropdown-menu > li > a,
+.sidebar-brand ul.dropdown-menu > li > a:focus,
+.sidebar-brand ul.dropdown-menu > li > a:hover {
+  padding: 0;
+  background-color: #311a45;
+  outline: 0;
+}
+.sidebar-brand ul.dropdown-menu > li > a > img {
+  width: 129px;
+  height: 28px;
+}
+.sidebar-brand ul.dropdown-menu > li.sidebar-extra > a i,
+.sidebar-brand ul.dropdown-menu > li > a > img {
+  margin-right: 10px;
+}
+.sidebar-brand ul.dropdown-menu > li > a > span {
+  font-family: Dosis;
+  font-weight: 700;
+  font-size: 17px;
+  vertical-align: middle;
+}
+.sidebar-brand ul.dropdown-menu > li.sidebar-header {
+  padding-top: 15px;
+}
+.sidebar-brand ul.dropdown-menu > li.sidebar-extra {
+  margin-top: 15px;
+}
+.sidebar-brand ul.dropdown-menu > li.sidebar-extra > a,
+.sidebar-brand ul.dropdown-menu > li.sidebar-extra > a:focus,
+.sidebar-brand ul.dropdown-menu > li.sidebar-extra > a:hover {
+  color: #83758f;
+  font-size: 14px;
+  text-transform: none;
+}
+.sidebar-brand ul.dropdown-menu > li.sidebar-extra > a:hover {
+  color: #f4f4f4;
+}
+.sidebar-brand ul.dropdown-menu > li.sidebar-extra > a span {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  vertical-align: inherit;
+}
+.sidebar-brand.open .fa-angle-down {
+  transform: rotate(180deg);
+}
+li.sidebar-extra > a:hover > span {
+  color: #fff;
+}
+
+.sidebar-extra span {
+  color: #83758f;
+  text-transform: none !important;
+  letter-spacing: 0px !important;
+}
+
+.product-item > .name {
+  margin-left: 4px;
+  letter-spacing: -0.001px;
+}
+
+.sidebar-brand .dropdown-toggle span {
+  padding-left: 12px;
+  text-transform: uppercase;
+  font-family: Dosis;
+  font-weight: bolder;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 8px;
+}
+
+.sidebar .dropdown-toggle > img {
+  height: 28px;
+  margin-top: 25px;
+}
+
+.dropdown-toggle > i {
+  margin-left: 3px;
+}
